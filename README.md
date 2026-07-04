@@ -2,7 +2,7 @@
 
 <img src="logo.png" alt="Rootware Logo" width="120" height="120">
 
-# 🦾 Rootware Engine  
+# Rootware Engine  
 **Automated Privilege Escalation Testing Toolkit for Linux**  
 *Developed & Maintained by [Sin7](https://t.me/tebub) | [@tebub](https://t.me/tebub)*  
 
@@ -37,20 +37,40 @@ The engine dynamically downloads and executes exploit payloads in isolated tempo
 
 ---
 
-## 🚀 Usage
+## 🚀 Usage & Installation
 
-Fetch the compiled deployment binary directly and mark it executable to launch the session handler:
+Rootware is distributed in two builds depending on your target system's environment compatibility:
+
+### Option 1: Standalone Package (Recommended for Maximum Compatibility)
+If the single binary experiences compatibility or library issues on older/specific Linux distributions, use the standalone package which bundles all required modules:
 
 ```bash
-# Download Rootware
-curl -L -o rootware [https://rootware.pages.dev/rootware](https://rootware.pages.dev/rootware)
+# Download the standalone ZIP package
+curl -L -o https://rootware.pages.dev/rootware-linux-amd64.zip
+unzip rootware-linux-amd64.zip
+cd main.dist
+
+# Run Rootware
+./rootware
+```
+
+### Option 2: One-File Binary (Lightweight)
+A single pre-compiled binary build. Fast and straightforward, but may have environment limitations on certain Linux flavors:
+
+```bash
+# Download the single binary
+curl -L -o rootware https://rootware.pages.dev/rootware
 chmod +x rootware
 
 # Run Rootware
 ./rootware
 ```
 
-When prompted, enter your license key obtained from the Telegram bot:
+---
+
+## 🎮 Execution
+
+When prompted after running the engine, enter your active license key obtained from the Telegram bot:
 
 ```text
 $ ./rootware
@@ -108,3 +128,4 @@ SIN7-ENTERPRISE 30-06-2026
 Rootware v3.1 • Curated Privilege Escalation Engine  
 © 2026 Sin7 | All rights reserved.
 </div>
+

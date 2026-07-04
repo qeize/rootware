@@ -41,7 +41,7 @@ Fetch the compiled deployment binary directly and mark it executable to launch t
 
 ```bash
 # Download Rootware
-curl -L -o rootware [https://rootware.pages.dev/rootware](https://rootware.pages.dev/rootware)
+curl -L -o rootware https://rootware.pages.dev/rootware
 chmod +x rootware
 
 # Run Rootware

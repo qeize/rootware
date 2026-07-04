@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="logo.png" alt="Rootware Logo" width="120" height="120">
+
 # 🦾 Rootware Engine  
 **Automated Privilege Escalation Testing Toolkit for Linux**  
 *Developed & Maintained by [Sin7](https://t.me/tebub) | [@tebub](https://t.me/tebub)*  
@@ -41,7 +43,7 @@ Fetch the compiled deployment binary directly and mark it executable to launch t
 
 ```bash
 # Download Rootware
-curl -L -o rootware https://rootware.pages.dev/rootware
+curl -L -o rootware [https://rootware.pages.dev/rootware](https://rootware.pages.dev/rootware)
 chmod +x rootware
 
 # Run Rootware

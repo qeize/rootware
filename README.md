@@ -125,7 +125,7 @@ SIN7-ENTERPRISE 30-06-2026
 ---
 
 <div align="center">
-Rootware v3.1 • Curated Privilege Escalation Engine  
+Rootware v3.1  
 © 2026 Sin7 | All rights reserved.
 </div>
 

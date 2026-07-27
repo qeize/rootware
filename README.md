@@ -20,7 +20,7 @@
 
 </div>
 
-## 📋 About
+## About
 
 **Rootware** is a curated, terminal-native toolkit engineered for local privilege escalation (LPE) testing on Linux systems. Designed for security professionals and penetration testers, it automatically enumerates system vulnerabilities and executes tailored exploit chains within a controlled environment. 
 
@@ -28,7 +28,7 @@ The engine dynamically downloads and executes exploit payloads in isolated tempo
 
 ---
 
-## ✨ Core Features
+## Core Features
 
 * **🧩 Automated LPE Chain:** Evaluates and runs multiple exploit vectors sequentially until root-level access is successfully verified.
 * **⚡ Lightweight & Fast:** Delivered as a single standalone binary with zero local external dependencies. Runs directly out of the box.
@@ -37,7 +37,7 @@ The engine dynamically downloads and executes exploit payloads in isolated tempo
 
 ---
 
-## 🚀 Usage & Installation
+## Usage & Installation
 
 Rootware is distributed in two builds depending on your target system's environment compatibility:
 
@@ -68,7 +68,7 @@ chmod +x rootware
 
 ---
 
-## 🎮 Execution
+## Execution
 
 When prompted after running the engine, enter your active license key obtained from the Telegram bot:
 
@@ -83,7 +83,7 @@ $ ./rootware
 
 ---
 
-## 🔧 Curated Exploit Methods
+## Curated Exploit Methods
 
 Rootware interacts with an updated repository of target techniques managed dynamically without binary code compilation requirements:
 
@@ -96,19 +96,19 @@ Rootware interacts with an updated repository of target techniques managed dynam
 
 ---
 
-## 🔐 Licensing Format
+## Licensing Format
 
 Keys follow a strict string structure mapping specific expiration limits, provisioned through the official gateway bot:
 
 ```text
 # Key Input Protocol: KEY DD-MM-YYYY
 ROOTWAREFREE 31-12-2026
-SIN7-ENTERPRISE 30-06-2026
+SIN7ROOT 30-06-2026
 ```
 
 ---
 
-## 🛡️ Security Architecture
+## Security Architecture
 
 * **Zero Persistent Changes:** Runtime workspaces are systematically scrubbed and components unlinked immediately following active pipeline termination.
 * **Transparent Testing:** Execution streams log directly to standard output for step-by-step audit control.
@@ -116,7 +116,7 @@ SIN7-ENTERPRISE 30-06-2026
 
 ---
 
-## 👥 Contact & Gateway
+## Contact & Gateway
 
 * **Telegram Bot:** [@rootwbot](https://t.me/rootwbot)  
 * **Lead Developer:** [@tebub](https://t.me/tebub) (Sin7)  
